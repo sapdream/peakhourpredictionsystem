@@ -10,6 +10,7 @@ RandomForestRegressor
 metrics
 mean_squared_error
 matplotlib
+matplotlib.pyplot as plt
 pyplot
 tsa.statespace.sarimax
 SARIMAX
