@@ -63,14 +63,6 @@ import seaborn as sns
 
 sns.set()
 
-split_point = 100
-data_upper = data3.iloc[:split_point]
-print(data_upper['visit_count'].dtype)
-
-split_point = 100
-data_lower = data3.iloc[:split_point]
-print(data_lower.columns)
-
 plt.ylabel('Amount of patients')
 plt.xlabel('date')
 plt.xticks(rotation=45)
