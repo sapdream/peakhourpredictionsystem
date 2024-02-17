@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import pandas as pd
-import matplotlib.pyplot as plt
 
 data = pd.read_csv('gdrive/My Drive/Colab_Notebooks/capstoneproject/capstonedata.csv')
 
