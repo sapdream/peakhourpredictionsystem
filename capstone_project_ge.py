@@ -8,9 +8,6 @@ Original file is located at
 """
 
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 data = pd.read_csv('gdrive/My Drive/Colab_Notebooks/capstoneproject/capstonedata.csv')
@@ -115,7 +112,7 @@ def getprediction(input_date):
 
   return y_pred_out
 
-from statsmodels.tsa.statespace.sarimax import SARIMAX
+
 
 print(train.columns)
 
@@ -138,12 +135,6 @@ plt.plot(y_pred_out, test['visit_count'], color='green', label = 'Predictions')
 
 
 """# 1.ANN"""
-
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
-import matplotlib.pyplot as plt
 
 data = pd.read_csv('gdrive/My Drive/Colab_Notebooks/capstoneproject/capstonedata.csv', parse_dates=['visit_date'], index_col='visit_date')
 doctor_id = data['doctor_id']
