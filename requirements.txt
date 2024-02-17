@@ -2,5 +2,4 @@ streamlit
 pandas
 pandas-datareader
 statsmodels
-sklearn
-model_selection
+sklearn.model_selection
