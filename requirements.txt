@@ -2,4 +2,5 @@ streamlit
 pandas
 pandas-datareader
 statsmodels
+scikit-learn
 sklearn.model_selection
