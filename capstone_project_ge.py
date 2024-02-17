@@ -126,9 +126,6 @@ def getprediction(input_date):
 
   return y_pred_out
 
-
-!pip install statsmodels
-
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 print(train.columns)
