@@ -53,7 +53,6 @@ data3.head(10)
 data3=data3.set_index('visit_date')
 data3.head(10)
 
-!pip install pandas-datareader
 
 import pandas_datareader.data as web
 import datetime
@@ -127,7 +126,6 @@ def getprediction(input_date):
 
   return y_pred_out
 
-"""#1. ARMA"""
 
 !pip install statsmodels
 
@@ -148,7 +146,6 @@ y_pred_out = y_pred_df["Predictions"]
 
 plt.plot(y_pred_out, test['visit_count'], color='green', label = 'Predictions')
 
-!pip install streamlit
 
 
 
