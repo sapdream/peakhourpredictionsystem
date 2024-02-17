@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/18qRnq4z-8pF7jtOeRgHYQzmnAXbA5F9S
 """
 
-from google.colab import drive
-drive.mount('/content/gdrive', force_remount = True)
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
